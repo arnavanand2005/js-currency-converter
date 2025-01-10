@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 20px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;       
+    height: 400px;      
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    width: 300px;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+
+#input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#input-amount {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#input-amount:focus {
+    border-color: #007BFF;;
+}
+
+#dropdowns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.currency-group {
+    width: 48%;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+    border-color:#007BFF;
+}
+
+.currency-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#image {
+    width: 30px;
+    height: auto;
+}
+
+#result {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#convertedAmount {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #007BFF;
+}
+
+#submit-section {
+    text-align: center;
+}
+
+button{
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: #0088ffd4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: #007BFF;
+}
+
+button:active{
+    background-color: #00ccff;
+}
+
+button:focus{
+    background-color: 00ccff;
+}

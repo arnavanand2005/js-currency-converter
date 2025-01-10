@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CURRENCY CONVERTER</h1>
+        <form id="form">
+            <div class="input-group">
+                <label for="input-amount">Amount:</label>
+                <input type="number" id="input-amount" placeholder="Enter amount" required>
+            </div>
+            <div class="select-group">
+                <label for="fromcurrency">From Currency:</label>
+                <select id="fromcurrency" required>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR">INR</option>
+                    <option value="BTC">BTC</option>
+                    <option value="JPY">JPY</option>
+                    <option value="AED">AED</option>
+                    <option value="PKR">PKR</option>
+                    <option value="CNY">CNY</option>
+                    <option value="AUD">CAD</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="tocurrency">To Currency:</label>
+                <select id="tocurrency" required>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR">INR</option>
+                    <option value="AUD">AUD</option>
+                    <option value="BTC">BTC</option>
+                    <option value="JPY">JPY</option>
+                    <option value="AED">AED</option>
+                    <option value="PKR">PKR</option>
+                    <option value="CNY">CNY</option>
+                    <option value="AUD">CAD</option>
+                </select>
+            </div>
+            <div class="output-group">
+                <p id="convertedAmount">Converted Amount: </p>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
